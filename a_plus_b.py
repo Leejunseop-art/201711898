@@ -1,13 +1,4 @@
-fruits = {
-    '사과': 1000,
-    '바나나': 2000,
-    '자두': 500,
-    '복숭아': 4000,
-}
-key = input("어떤 과일을 찾으세요? ")
-
-if key in fruits:
-    value = fruits[key]
-    print(f"{key}는 {value}원입죠~.")
-else:
-    print(f"아이고, {key}는 매장에 없네요.")
+x = int(input('첫번째 인자를 입력하세요: '))
+y = int(input('두번째 인자를 입력하세요: '))
+print(f'{x} + {y} = {x + y}')
+print('프로그램을 종료합니다!')
